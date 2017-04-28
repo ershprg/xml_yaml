@@ -24,9 +24,9 @@ Example:
     <external::element1>elem2</external::element1>
   </external_structure>
 </yaml>
-```text
-Is converted to:
-```text1
+
+Becomes:
+
 primary: abc
 secondary: def
 vhosts:
@@ -41,4 +41,4 @@ external_structure:
   external::element: elem1
   external::element1: elem2
   
-```text1
+```text
