@@ -4,6 +4,7 @@ Generic XML to YAML convertor
 I wanted to convert "almost any convertable" XML form to YAML as simply as possible. I found no Java library to do it directly, all the options demanded intermediate conversion.
 
 Example:
+```text
 <?xml version=\"1.0\" encoding=\"UTF-8\" ?>"+
 <yaml>
   <primary>abc</primary>
@@ -23,8 +24,9 @@ Example:
     <external::element1>elem2</external::element1>
   </external_structure>
 </yaml>
-
+```text
 Is converted to:
+```text1
 primary: abc
 secondary: def
 vhosts:
@@ -39,4 +41,4 @@ external_structure:
   external::element: elem1
   external::element1: elem2
   
-  
+```text1
